@@ -1,0 +1,40 @@
+body{
+    background-image: url('back.jpg');
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 97vh;
+    font-family: 'Squada One', cursive; 
+}
+.button{
+    text-decoration: none;
+    border: 1px solid #fff;
+    font-size: 17px;
+    padding: 10px 35px;
+    color:#000;
+    display: inline-block;
+    margin-top: 5%;
+    
+    text-transform: uppercase;
+}
+.button:hover{
+    border-color: yellow;
+    background-color: yellow;
+    transition: .9s;
+    color: #262626;
+
+}
+.main-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+    
+    font: size 200px;
+}
+.main-text p{
+    font-size: 45px;
+    margin: 0;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Squada+One" rel="stylesheet">
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/hcalc.css') }}">
+  <title>Equation Solver</title>
+  <style>
+    .banner-area{
+      display: block;
+  	  padding: 16px 10px 18px; 
+    }
+  </style>  
+</head>
+<body>
+    <div class="main-text">
+      <form action="#" method="POST" enctype="multipart/form-data">
+        <div>
+          <br/><br/><br/>
+          <p align="center">
+            Handwritten Equation Solver
+          </p>
+          <br/><br/>
+          <p align="center">
+            <input type="file" name="eqn" id="file" accept="image/*" hidden>
+            <label for="file" class="button">Upload File</label> 
+            <br/><br/>
+            <input type="submit" value="Submit" class="button" style="font-family: 'Squada One', cursive;">
+          </p>
+      </form>
+    </div>
+
+</body>
+</html>
